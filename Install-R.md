@@ -54,9 +54,10 @@ sudo apt-get install gdebi-core
 </pre>
 
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-19%2017-39-30.png)
-<pre>
+
 
 <pre>wget https://download1.rstudio.org/rstudio-0.99.896-amd64.deb </pre>
+
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-19%2017-43-41.png)
 
 
