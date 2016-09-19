@@ -24,3 +24,15 @@ First, we’ve got to add a line to our /etc/apt/sources.list file. This can be 
 
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-19%2017-13-21.png)
 
+<b>2. Add R to Ubuntu Keyring</b>
+
+First:
+
+ <pre>gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9</pre>.
+ 
+Then:
+
+ <pre>gpg -a --export E084DAB9 | sudo apt-key add -</pre>
+
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-19%2017-19-50.png)
+
