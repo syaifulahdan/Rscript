@@ -14,3 +14,10 @@ The long-awaited new Ubuntu LTS Xenial Xerus was released last week. I wrote a t
 <b>Install R-Base</b>
 
 You can find R-Base in the Software Center; this would be the easy way to do it. However, the Software Center versions are often out of date, which can be a pain moving foward when your packages are based on the most current version of R Base. The easy fix is to download and install R Base directly from the Cran servers.
+
+
+<b>1. Add R repository</b>
+
+First, we’ve got to add a line to our /etc/apt/sources.list file. This can be accomplished with the following. Note the “xenial” in the line, indicating Ubuntu 16.04. If you have a different version, just change that.
+
+sudo echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" | sudo tee -a /etc/apt/sources.list
