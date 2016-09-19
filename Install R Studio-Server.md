@@ -36,6 +36,7 @@ Acces your browser http://<server-ip>:8787
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-20%2000-07-47.png)
 
 
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-20%2000-09-25.png)
 
 
 source : https://support.rstudio.com/hc/en-us/articles/200552306-Getting-Started
