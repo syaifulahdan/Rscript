@@ -11,6 +11,6 @@ This programming language was named R, based on the first letter of first name o
 
 The long-awaited new Ubuntu LTS Xenial Xerus was released last week. I wrote a tutorial on installing R and R-Studio on the old 14.04 LTS, so I figured I’d update that document. Not much has changed for the new 16.04 version but there are new repositories.
 
-b>Install R-Base</b>
+<b>Install R-Base</b>
 
 You can find R-Base in the Software Center; this would be the easy way to do it. However, the Software Center versions are often out of date, which can be a pain moving foward when your packages are based on the most current version of R Base. The easy fix is to download and install R Base directly from the Cran servers.
