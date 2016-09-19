@@ -51,6 +51,10 @@ From here you can download your files and install the IDE through Ubuntu Softwar
 
 <pre>
 sudo apt-get install gdebi-core
+</pre>
+
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-19%2017-39-30.png)
+<pre>
 wget https://download1.rstudio.org/rstudio-0.99.896-amd64.deb
 sudo gdebi -n rstudio-0.99.896-amd64.deb
 rm rstudio-0.99.896-amd64.deb
