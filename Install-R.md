@@ -44,3 +44,14 @@ Most Linux users should be familiar with the old…
 <pre>sudo apt-get install r-base r-base-dev</pre>
 
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-19%2017-35-54.png)
+
+<b>Installing R-Studio</b>
+
+From here you can download your files and install the IDE through Ubuntu Software Center or Synaptic Package Manager, or since you’ve already got the terminal open, you could just:
+
+<pre>
+sudo apt-get install gdebi-core
+wget https://download1.rstudio.org/rstudio-0.99.896-amd64.deb
+sudo gdebi -n rstudio-0.99.896-amd64.deb
+rm rstudio-0.99.896-amd64.deb
+</pre>
