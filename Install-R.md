@@ -42,3 +42,5 @@ Most Linux users should be familiar with the old…
 <pre> sudo apt-get update</pre>
 
 <pre>sudo apt-get install r-base r-base-dev</pre>
+
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-19%2017-35-54.png)
