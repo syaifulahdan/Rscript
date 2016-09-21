@@ -362,8 +362,11 @@ Hal ini juga memungkinkan untuk menggabungkan tes logis. Pada contoh berikut ki
 ## 17 76 0 4 3 1 2 47 52 51 50 56
 ## 19 114 0 4 3 1 2 68 65 62 55 61
 ## 24 20 0 1 3 1 2 60 52 57 61 61
+
 The bagian fungsi dengan pernyataan logis akan membiarkan Anda subset frame data dengan observasi. Pada contoh berikut write.50 frame data hanya memiliki satu pengamatan yang nilai-nilai variabel menulis lebih besar dari 50. Perhatikan bahwa salah satu fitur yang mudah dari bagian fungsi, adalah R mengasumsikan nama variabel berada dalam frame data menjadi bagian, sehingga tidak perlu untuk memberitahu R di mana untuk mencari tulis .
 (write.50  <-  bagian (hsb2.small, menulis  >  50 ))
+
+
 ## Id perempuan ras ses schtyp prog baca tulis matematika socst ilmu
 ## 1 70 0 4 1 1 1 57 52 41 47 57
 ## 2 121 1 4 2 1 3 68 59 53 63 61
@@ -381,24 +384,33 @@ The bagian fungsi dengan pernyataan logis akan membiarkan Anda subset frame da
 ## 19 114 0 4 3 1 2 68 65 62 55 61
 ## 22 143 0 4 2 1 3 63 63 75 72 66
 ## 24 20 0 1 3 1 2 60 52 57 61 61
+
 Tidak ada batas untuk berapa banyak pernyataan logis dapat dikombinasikan untuk mencapai subsetting yang diinginkan. Frame data write.1 hanya memiliki satu pengamatan yang nilai-nilai variabel menulis lebih besar dari 50 dan untuk yang variabel membaca lebih besar dari 60.
 (write.1  <-  bagian (hsb2.small, menulis  >  50  &  baca  >  60 ))
+
 ## Id perempuan ras ses schtyp prog baca tulis matematika socst ilmu
 ## 2 121 1 4 2 1 3 68 59 53 63 61
 ## 9 84 0 4 2 1 1 63 57 54 58 51
 ## 13 95 0 4 3 1 2 73 60 71 61 71
 ## 19 114 0 4 3 1 2 68 65 62 55 61
 ## 22 143 0 4 2 1 3 63 63 75 72 66
+
+
 Hal ini dimungkinkan subset kedua baris dan kolom menggunakan bagian fungsi. The pilih Argumen memungkinkan Anda bagian variabel (kolom). Frame data write.2 hanya memiliki satu variabel menulis dan membaca dan kemudian hanya pengamatan kedua variabel mana nilai-nilai variabel menulis lebih besar dari 50 dan nilai-nilai dari variabel membaca lebih besar dari 65.
 (write.2  <-  bagian (hsb2.small, menulis  >  50  &  baca  >  60 ,  pilih  =  c (write, read)))
+
 ## tulis baca
 ## 2 59 68
 ## 9 57 63
 ## 13 60 73
 ## 19 65 68
 ## 22 63 63
+
+
 Dalam frame data write.3 hanya memiliki satu pengamatan di variabel baca melalui ilmu pengetahuan yang nilai-nilai dalam variabel ilmu kurang dari 55.
 (write.3  <-  bagian (hsb2.small, ilmu  <  55 ,  pilih  = baca : ilmu))
+
+
 ## Baca tulis ilmiah matematika
 ## 1 57 52 41 47
 ## 4 63 44 47 53
@@ -412,11 +424,18 @@ Dalam frame data write.3 hanya memiliki satu pengamatan di variabel baca mel
 ## 17 47 52 51 50
 ## 20 55 39 57 53
 ## 25 37 44 45 39
+
+
 3. Subsetting kedua variabel dan pengamatan
 Kita bisa subset variabel dan pengamatan dengan hanya menggabungkan dua metode di atas dari subsetting. Kami melakukannya dengan subsetting menggunakan kedua indeks pada saat yang sama. Pada contoh berikut kita membuat frame data hsb9 di mana kita tetap hanya variabel id , perempuan ,ras , ses dan membaca dan hanya pengamatan mana ses = 3. Perhatikan lagi bahwa karena kita tidak menggunakan bagian , kita harus membiarkan R tahu di mana untuk menemukan variabel ses oleh eksplisit menunjuk ke hsb2.small .
+
+
 # Menggunakan nama fungsi untuk melihat nama-nama variabel dan yang kolom 
 # data yang mereka sesuai 
+
 nama (hsb2.small)
+
+
 ## [1] "id" "perempuan" "ras" "ses" "schtyp" "prog" "membaca"   
 ## [8] "menulis" "matematika" "ilmu" "socst"
 (hsb9  <-  hsb2.small [hsb2.small $ ses  ==  3 ,  c ( 1 : 4 ,  7 )])
