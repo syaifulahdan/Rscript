@@ -9,6 +9,9 @@
 8. Bagaimana mengakses value dalam sebuah object data frame?
 9. Bagaimana membuat subset dari data frame?
 10. Bagaimana mengambil data dari file lalu dipindahkan ke dalam obyek data.table?
+
+
+
 Jawaban
 1. Vektor merupakan kumpulan dari semua nilai yang menunjukan type data yang sama.
 buka program R lalu ketikkan kode dibawah ini dan tekan enter :
@@ -26,6 +29,8 @@ chr [1:2] "Ayah" "Ibu"
 chr  merupakan type data Character
 tulisan [1:2] berwarna hijau berarti koleksi nilainya terdiri dari 1 sampai dua koleksi nilai.
 tulisan "Ayah" "Ibu" berwarna biru  itu adalah koleksi nilainya, jadi terdapat dua koleksi nilai.
+
+
 2. R juga mempunyai sejumlah fasilitas untuk membangkitkan (generate) barisan bilangan. Fungsi yang digunakan adalah seq(). Sebagai contoh, untuk menuliskan suatu barisan dari 1 hingga 20, kita tidak perlu menuliskan satu persatu elemen ke dalam vektor, cukup menuliskan 
 > seq (1, 20) atau 
 > seq (from=1, to=20) 
@@ -50,13 +55,22 @@ akan menyalin sebanyak 5 kali angka 4, sedangkan perintah berikut:
 [1] 11.0 11.0 11.0 11.0 11.0 16.2 16.2 16.2 16.2 16.2 7.2 7.2 7.2 7.2 7.2 
 [16] 1.3 1.3 1.3 1.3 1.3 8.3 8.3 8.3 8.3 8.3 
 akan menyalin setiap elemen x sebanyak 5 kali.
+
+
 3. Misalnya, kita memiliki dua vektor, yaitu X = dan Y =, maka hasil berbagai operasi hitung biasa di antR juga mempunyai sejumlah fasilitas untuk membangkitkan (generate) barisan bilangan. Fungsi yang digunakan adalah seq(). Sebagai contoh, untuk menuliskan suatu barisan dari 1 hingga 20, kita tidak perlu menuliskan satu persatu elemen ke dalam vektor, cukup menuliskan 
+
 4. > seq (1, 20) atau 
+
 5. > seq (from=1, to=20) 
+
 6. akan menghasilkan 
+
 7. [1] 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+
 8. Keterangan: [1] pada sisi paling kiri mengartikan baris ke-1 dari hasil perhitungan di R
+
 9.  > seq (20, 1) 
+
 10. Perintah tersebut akan menghasilkan barisan bilangan yang menurun dari 20 ke 1 Barisan bilangan juga dapat dibangkitkan dengan cacah kelipatan tertentu. Misalkan: 
 11. > s3 <- seq(from=-5, to=5, by=.5) atau 
 12. > s3 <- seq(-5,5,by.5) atau 
