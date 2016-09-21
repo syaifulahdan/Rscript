@@ -9,3 +9,11 @@ Objek data frame dapat dibuat dengan menggunakan perintah data.frame, seperti pa
 Secara umum, perintah‐perintah diatas adalah ekuivalen dengan perintah berikut ini. 
 
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2012-37-53.png)
+
+Seperti  pada  data  vektor,  ekstraksi  sebagian  data  pada  matriks  dan  data  frame  dapat 
+pula dilakukan dengan berbagai cara atau langkah. Berikut ini adalah beberapa contoh 
+hasil ekstraksi dari suatu matriks dan data frame. 
+
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2012-42-30.png)
+
+
