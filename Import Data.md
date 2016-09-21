@@ -10,3 +10,4 @@ Suatu  file  ASCII  biasanya  terdiri  dari  bilangan‐bilangan  yang  dipisahk
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2012-56-39.png
 )
 
+Anggap  bahwa  file  ASCII  dengan  nama  latihan5.txt  ini  sudah  tersimpan  pada  direktori kerja  R.  Proses  impor  data dapat  dilakukan  dengan  perintah  scan  dan  latihan5.txt  sebagai  argumennya.  Apabila  data  tidak berada  pada direktori  kerja R,  maka  tulis juga direktori  tersebut  pada  argumennya.  Berikut  ini  adalah  contoh  proses  impor  data  file ASCII. 
