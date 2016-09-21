@@ -5,3 +5,7 @@ mode  data  yang  berbeda‐beda  untuk  setiap  kolomnya.  Misalkan  saja,  kol
 Objek data frame dapat dibuat dengan menggunakan perintah data.frame, seperti pada contoh‐contoh berikut ini.
 
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2012-35-39.png)
+
+Secara umum, perintah‐perintah diatas adalah ekuivalen dengan perintah berikut ini. 
+
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2012-37-53.png)
