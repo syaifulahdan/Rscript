@@ -1,6 +1,4 @@
-Manual Book R
-Kelompok : Theta Dinnarwaty Putri, Sri Lestari Harja, Rizna Novitasari
-Soal
+
 1. Apa itu vector?
 2. Bagaimana mengenerate sequence number?
 3. Bagaimana menggabungkan dua buah vector?
