@@ -11,6 +11,7 @@ adalah sebagai berikut.
 
 ![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2013-14-18.png)
 
-Perintah  use.value.labels=TRUE  digunakan  untuk  mendapatkan  variabel  yang  bertipe FACTOR dengan “value label” seperti yang ada pada data file di SPSS.  
-Berikut ini adalah proses impor data file MINITAB dalam ekstensi .MTP ke dalam R dengan menggunakan perintah command line. Misalkan data file MINITAB yang sudah 
-dimiliki adalah FA.MTW dan telah disimpan ke dalam ekstensi .MTP menjadi FA.MTP.  
+Perintah  use.value.labels=TRUE  digunakan  untuk  mendapatkan  variabel  yang  bertipe FACTOR dengan “value label” seperti yang ada pada data file di SPSS.  Berikut ini adalah proses impor data file MINITAB dalam ekstensi .MTP ke dalam R dengan menggunakan perintah command line. Misalkan data file MINITAB yang sudah dimiliki adalah FA.MTW dan telah disimpan ke dalam ekstensi .MTP menjadi FA.MTP.  
+
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2013-18-13.png)
+
