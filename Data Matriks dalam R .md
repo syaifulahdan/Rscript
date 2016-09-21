@@ -8,16 +8,11 @@ Argumen  yang  diperlukan  adalah  elemen‐elemen  dari  matriks,  dan  argumen
 yaitu  banyaknya  baris  nrow  dan  banyaknya  kolom  ncolom.    Sebagai  contoh,  gunakan 
 perintah‐perintah berikut ini pada R‐console.
 
-> matriks.1 = matrix(c(1,2,3,4,5,6),nrow=2,ncol=3) 
-> matriks.2 = matrix(1:6,nrow=2,ncol=3) 
-> matriks.3 = matrix(1:6,nrow=2) 
-> matriks.4 = matrix(1:6,2) 
-> matriks.1
+![alt tag](https://github.com/syaifulahdan/Rscript/blob/master/image/Screenshot%20from%202016-09-21%2012-25-45.png)
 
 
-[,1] [,2] [,3] 
-[1,]    1    3    5 
-[2,]    2    4    6
+
+
 
 Keempat perintah diatas akan menghasilkan matriks yang sama. Untuk mengetahuinya 
 ketikkan  matriks.2,  matriks.3,  matriks.4,  dan  kemudian  enter  untuk  masing‐masing 
